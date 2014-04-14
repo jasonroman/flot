@@ -1,6 +1,6 @@
 <?php
 
-namespace JasonRoman\Flot\Chart;
+namespace JasonRoman\Flot;
 
 /**
  * Class for handling data between PHP and the Javascript Flot library

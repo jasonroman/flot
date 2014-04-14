@@ -1,8 +1,8 @@
 <?php
 
-namespace JasonRoman\Flot\Tests\Chart;
+namespace JasonRoman\Flot\Tests;
 
-use JasonRoman\Flot\Chart\Flot;
+use JasonRoman\Flot\Flot;
 
 /**
  * Flot Chart unit tests
@@ -12,7 +12,7 @@ use JasonRoman\Flot\Chart\Flot;
 class FlotTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var JasonRoman\Bundle\FlotBundle\Chart\Flot
+     * @var JasonRoman\Flot\Flot
      */
     private static $class;
 
