@@ -1,0 +1,9 @@
+{
+	"name": "jasonroman/php-flot",
+	"description": "Jason Roman's PHP Flot Class",
+	"require": {
+    },
+    "autoload": {
+        "psr-0": { "JasonRoman\\Flot": "" }
+    }
+} 
