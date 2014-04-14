@@ -1,9 +1,16 @@
 {
     "name": "jasonroman/flot",
-    "type": "library",
     "description": "Jason Roman's PHP Flot Class",
-    "homepage": "http://github.com/jasonroman/flot",
     "keywords": ["flot"],
+    "homepage": "http://github.com/jasonroman/flot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Roman",
+            "email": "j@jayroman.com",
+            "homepage": "http://jayroman.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.0"
     },
