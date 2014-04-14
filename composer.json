@@ -3,6 +3,7 @@
     "description": "Jason Roman's PHP Flot Class",
     "keywords": ["flot"],
     "homepage": "http://github.com/jasonroman/flot",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +18,11 @@
     "autoload": {
         "psr-0": {
             "JasonRoman": "Flot"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
