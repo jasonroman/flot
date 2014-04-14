@@ -1,9 +1,14 @@
 {
     "name": "jasonroman/flot",
+    "type": "library",
     "description": "Jason Roman's PHP Flot Class",
+    "homepage": "http://github.com/jasonroman/flot",
+    "keywords": ["flot"],
     "require": {
+        "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-0": { "JasonRoman\\Flot": "" }
+        "psr-0": {
+            "JasonRoman": "Flot"
     }
 } 
