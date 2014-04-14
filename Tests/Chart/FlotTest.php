@@ -2,7 +2,7 @@
 
 namespace JasonRoman\Flot\Tests\Chart;
 
-use JasonRoman\Chart\Flot;
+use JasonRoman\Flot\Chart\Flot;
 
 /**
  * Flot Chart unit tests
