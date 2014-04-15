@@ -2,7 +2,7 @@
     "name": "jasonroman/flot",
     "description": "Jason Roman's PHP Flot Class",
     "keywords": ["flot"],
-    "homepage": "http://github.com/jasonroman/flot",
+    "homepage": "https://github.com/jasonroman/flot",
     "type": "library",
     "license": "MIT",
     "authors": [
