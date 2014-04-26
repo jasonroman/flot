@@ -1,5 +1,6 @@
 Jason Roman's PHP Flot Class
 ========
+[![Build Status](https://travis-ci.org/jasonroman/flot.svg?branch=master)](https://travis-ci.org/jasonroman/flot)
 
 This is a class that transforms PHP arrays of series data into a JSON format that Flot can understand. It supports line/bar charts, pie charts, horizontal/vertical orientation, and time series data. It also supports single or multiple series.
 
