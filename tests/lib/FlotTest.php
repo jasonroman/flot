@@ -43,7 +43,7 @@ class FlotTest extends \PHPUnit_Framework_TestCase
     {
         $converted = self::$class->convert($data, $orientation);
 
-        $this->assertTrue(self::isJson($converted));
+        $this->assertJson($converted);
 
         // rebuild the decoded array back to the original format to make sure it matches
         $rebuiltData = self::rebuildChartData(json_decode($converted), $orientation);
@@ -60,7 +60,7 @@ class FlotTest extends \PHPUnit_Framework_TestCase
     {
         $converted = self::$class->convert($data, $orientation, true);
 
-        $this->assertTrue(self::isJson($converted));
+        $this->assertJson($converted);
 
         // rebuild the decoded array back to the original format to make sure it matches
         $rebuiltData = self::rebuildChartData(json_decode($converted), $orientation, true);
@@ -78,7 +78,7 @@ class FlotTest extends \PHPUnit_Framework_TestCase
     {
         $converted = self::$class->convert($data, $orientation, true);
 
-        $this->assertTrue(self::isJson($converted));
+        $this->assertJson($converted);
 
         // rebuild the decoded array back to the original format to make sure it matches
         $rebuiltData = self::rebuildChartData(json_decode($converted), $orientation, true, true);
@@ -95,7 +95,7 @@ class FlotTest extends \PHPUnit_Framework_TestCase
     {
         $converted = self::$class->convertToPie($data);
 
-        $this->assertTrue(self::isJson($converted));
+        $this->assertJson($converted);
 
         // now make sure the keys and values were set properly as label/data object members
         // if the initial array had no keys, then keys will just be the index
@@ -141,17 +141,6 @@ class FlotTest extends \PHPUnit_Framework_TestCase
     public function testHasMultipleSeriesFalse(array $data)
     {
         $this->assertFalse(self::$class->hasMultipleSeries($data));
-    }
-
-    /**
-     * Checks if data is a json-encoded object
-     * 
-     * @param mixed $data
-     * @return bool
-     */
-    public static function isJson($data)
-    {
-        return (is_array(json_decode($data, true)));
     }
 
     /**
