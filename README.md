@@ -4,7 +4,7 @@ Jason Roman's PHP Flot Class
 
 This is a class that transforms PHP arrays of series data into a JSON format that Flot can understand. It supports line/bar charts, pie charts, horizontal/vertical orientation, and time series data. It also supports single or multiple series.
 
-To load as a service in a Symfony bundle, see my <a href="https://github.com/jasonroman/flot">jasonroman/flot-bundle</a> package.
+To load as a service in a Symfony bundle, see my <a href="https://github.com/jasonroman/flot-bundle">jasonroman/flot-bundle</a> package.
 
 ## Usage
 
